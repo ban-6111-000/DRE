@@ -1,0 +1,17 @@
+embedding_size: 64
+embed_dim: 128 # 新
+feat_embed_dim: 64
+
+n_layers: [1, 2]
+dropout: [0.3, 0.5]
+reg_weight: [0.1, 0.01]
+jo_weight: 1.0
+cl_weight: 0.5
+
+input_dim: 64
+output_dim: 1
+
+use_neg_sampling: False
+
+hyper_parameters: ["n_layers", "reg_weight", "dropout"]
+
